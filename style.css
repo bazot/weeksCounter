@@ -1,0 +1,95 @@
+  body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(243, 240, 235);
+  }
+  .wrapper {
+    width: 1000px;
+    display: block;
+    position: relative;
+    margin: 25px auto 0px auto;
+  }
+  .head {
+    width: 230px;
+    margin-bottom: 40px;
+  }
+  .head input {
+    margin: 5px 0px 5px 5px;
+    padding: 1px;
+    width: 210px;
+    height: 23px;
+  }
+  .divBox {
+    width: 728px;
+    margin: 0px 0px 10px 20px;
+    padding: 0px;
+  }
+  .divBox div {
+    width: 10px;
+    height: 10px;
+    float: left;
+    margin: 2px 2px 2px 2px;
+    background-color: rgb(179, 124, 214);
+    border-radius: 100%;
+    opacity: 0.2;
+  }
+  .side {
+    float: right;
+  }
+  .dataHolder {
+    font-family: verdana;
+    font-size: 14px;
+    height: auto;
+    width: 230px;
+  }
+  .dataHolder div {
+    padding: 10px;
+    margin: 4px;
+    background-color: rgba(126, 204, 175, 0.37); 
+  }
+  .rowEnd {
+    clear: left;
+  }
+.btn {
+  display: inline-block;
+  width: 84px;
+  background: #48f082;
+  background-image: -webkit-linear-gradient(top, #48f082, #4ae6bf);
+  background-image: -moz-linear-gradient(top, #48f082, #4ae6bf);
+  background-image: -ms-linear-gradient(top, #48f082, #4ae6bf);
+  background-image: -o-linear-gradient(top, #48f082, #4ae6bf);
+  background-image: linear-gradient(to bottom, #48f082, #4ae6bf);
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 4px 7px 4px 7px;
+  margin: 5px 3px 5px 10px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btnClear:hover {
+  background: #ff2e2e;
+  background-image: -webkit-linear-gradient(top, #ff2e2e, #ff6161);
+  background-image: -moz-linear-gradient(top, #ff2e2e, #ff6161);
+  background-image: -ms-linear-gradient(top, #ff2e2e, #ff6161);
+  background-image: -o-linear-gradient(top, #ff2e2e, #ff6161);
+  background-image: linear-gradient(to bottom, #ff2e2e, #ff6161);
+  text-decoration: none;
+}
+
+.btnDate:hover {
+  background: #33beff;
+  background-image: -webkit-linear-gradient(top, #33beff, #55e1fa);
+  background-image: -moz-linear-gradient(top, #33beff, #55e1fa);
+  background-image: -ms-linear-gradient(top, #33beff, #55e1fa);
+  background-image: -o-linear-gradient(top, #33beff, #55e1fa);
+  background-image: linear-gradient(to bottom, #33beff, #55e1fa);
+  text-decoration: none;
+}
+.btnClear {
+  margin: 5px 3px 5px 5px;
+}
