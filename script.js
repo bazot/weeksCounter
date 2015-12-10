@@ -73,7 +73,6 @@ function clearData() {
 	var divArray = document.querySelectorAll('.divBox div');
 	for (var i = 0; i < divArray.length; i++) {
 			divArray[i].style.opacity = 0.2;
-			divArray[i].style.backgroundColor = 'rgb(212, 198, 28)';
 		};
 	dataArray = [];
 	drawResult();
