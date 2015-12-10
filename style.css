@@ -72,6 +72,7 @@
 }
 
 .btnClear:hover {
+  cursor: default;
   background: #ff2e2e;
   background-image: -webkit-linear-gradient(top, #ff2e2e, #ff6161);
   background-image: -moz-linear-gradient(top, #ff2e2e, #ff6161);
@@ -82,6 +83,7 @@
 }
 
 .btnDate:hover {
+  cursor: default;
   background: #33beff;
   background-image: -webkit-linear-gradient(top, #33beff, #55e1fa);
   background-image: -moz-linear-gradient(top, #33beff, #55e1fa);
