@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>U Will Die Soon</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	
+	<div class="wrapper">
+		<!--data field-->
+		<div class="side">
+			<div class="head">
+				<input type="text" id="nameField" placeholder="enter your name" />
+				<input type="date" id="birthDate"/>
+				<a 
+					class="btnDate btn" 
+					onclick="getDate()">
+					Get date
+				</a>
+				<a 
+					id="clearData" 
+					class="btnClear btn" 
+					onclick="clearData()">
+					Clear Data
+				</a>
+			</div>
+			
+			<div class="dataHolder" id="dataHolder"></div>
+		
+		</div>
+		<!--weeks field-->
+		<div class="divBox" id="divBox"></div>
+	</div>
+	<script src="scriptDate.js"></script>
+</body>
+</html>
