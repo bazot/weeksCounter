@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>U Will Die Soon</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Weeks Counter</title>
+	<link rel="stylesheet" type="text/css" href="css/counterStyle.css">
 </head>
 <body>
 	
 	<div class="wrapper">
+		<div class="topGrid" id="topGrid"></div>
+		<div class="leftSideGrid" id="leftSideGrid"></div>
 		<!--data field-->
 		<div class="side">
-			<div class="head">
+			<div class="userInput">
 				<input type="text" id="nameField" placeholder="enter your name" />
 				<label>enter your birth date</label>
 				<input type="date" id="birthDate"/>
@@ -25,13 +27,13 @@
 					Clear Data
 				</a>
 			</div>
-			
 			<div class="dataHolder" id="dataHolder"></div>
-		
 		</div>
 		<!--weeks field-->
-		<div class="divBox" id="divBox"></div>
+		<div class="weeksHolder" id="weeksHolder"></div>
 	</div>
-	<script src="script.js"></script>
+
+	<script src="js/counerScript.js"></script>
+	<script src="js/modalEffects.js"></script>
 </body>
 </html>
