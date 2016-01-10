@@ -1,3 +1,40 @@
+  .userPoint{
+    cursor: pointer;
+  }
+  .topGrid{
+    font-family: verdana;
+    font-size: 10px;
+    padding-left: 20px;
+    width: 754px;
+    height: 20px;
+  }
+  .weekPoints{
+    width: 10px;
+    height: 10px;
+    float: left;
+    margin: 2px 2px 2px 2px;
+    opacity: 0;
+  }
+  .leftSideGrid{
+    font-family: verdana;
+    font-size: 10px;
+    float: left;
+    width: 20px;
+    height: 100%;
+    display: inline-block;
+  }
+  .yearPoints{
+    width: 10px;
+    height: 10px;
+    float: left;
+    margin: 2px 2px 2px 2px;
+    opacity: 0;
+  }
+  label {
+    margin:0px 0px 0px 7px;
+    font-family: verdana;
+    font-size: 9px;
+  }
   body {
     margin: 0px;
     padding: 0px;
@@ -9,32 +46,32 @@
     position: relative;
     margin: 25px auto 0px auto;
   }
-  .head {
-    width: 230px;
-    margin-bottom: 40px;
-  }
-  .head input {
-    margin: 5px 0px 5px 5px;
-    padding: 1px;
-    width: 210px;
-    height: 23px;
-  }
-  .divBox {
+  .weeksHolder {
+    display: inline-block;
     width: 728px;
-    margin: 0px 0px 10px 20px;
+    margin: 0px 0px 10px 0px;
     padding: 0px;
   }
-  .divBox div {
+  .weeksHolder div {
     width: 10px;
     height: 10px;
     float: left;
     margin: 2px 2px 2px 2px;
-    background-color: rgb(179, 124, 214);
     border-radius: 100%;
     opacity: 0.2;
   }
   .side {
     float: right;
+  }
+  .userInput {
+    width: 230px;
+    margin-bottom: 40px;
+  }
+  .userInput input {
+    margin: 5px 5px 5px 5px;
+    padding: 1px;
+    width: 210px;
+    height: 23px;
   }
   .dataHolder {
     font-family: verdana;
@@ -42,10 +79,15 @@
     height: auto;
     width: 230px;
   }
-  .dataHolder div {
-    padding: 10px;
+  .userResult {
+  	cursor: pointer;
+    font-family: verdana;
+    text-align: center;
     margin: 4px;
-    background-color: rgba(126, 204, 175, 0.37); 
+    background-color: rgba(126, 204, 175, 0.4);
+  }
+  .namePlace {
+    background-color: rgba(58, 170, 247, 0.4);
   }
   .rowEnd {
     clear: left;
@@ -61,17 +103,17 @@
   background-image: linear-gradient(to bottom, #48f082, #4ae6bf);
   -webkit-border-radius: 6;
   -moz-border-radius: 6;
-  border-radius: 6px;
   font-family: Arial;
   color: #ffffff;
   font-size: 15px;
   padding: 4px 7px 4px 7px;
-  margin: 5px 3px 5px 10px;
+  margin: 5px 5px 5px 10px;
   text-decoration: none;
   text-align: center;
 }
 
 .btnClear:hover {
+  cursor: default;
   background: #ff2e2e;
   background-image: -webkit-linear-gradient(top, #ff2e2e, #ff6161);
   background-image: -moz-linear-gradient(top, #ff2e2e, #ff6161);
@@ -82,6 +124,7 @@
 }
 
 .btnDate:hover {
+  cursor: default;
   background: #33beff;
   background-image: -webkit-linear-gradient(top, #33beff, #55e1fa);
   background-image: -moz-linear-gradient(top, #33beff, #55e1fa);
@@ -91,5 +134,5 @@
   text-decoration: none;
 }
 .btnClear {
-  margin: 5px 3px 5px 5px;
+  margin: 5px 5px 5px 5px;
 }
