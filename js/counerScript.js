@@ -101,7 +101,7 @@ function getDate() {
 	drawResult();
 	
 	//alert(typeof procentOfLife);
-	alert(name + ' You are live ' + weeks + ' weeks for now. It is ' + procentOfLife + ' % of 90 years');
+	alert(name + ' You have passed ' + weeks + ' weeks for now. It is ' + procentOfLife + ' % of 90 years');
 };
 var localData = localStorage.getItem('data');
 if (localData) {
